@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CLOAK</title>
+  <title>BLAST SCANNER</title>
   <style>
     body {
       font-family: 'Arial', sans-serif;
@@ -205,11 +205,11 @@
     const filterSelect = document.getElementById('filter');
     const container = document.getElementById('app');
     let allTactics = [];
-    const logoImageUrl = "https://github.com/Mickinthemiddle/CLOAK/blob/main/CLOAK.png?raw=true"; 
+    const logoImageUrl = "https://github.com/phantomjac/Blast-Scanner/edit/main/blast.png?raw=true"; 
 
     document.getElementById("logo").src = logoImageUrl;
 
-    fetch('https://raw.githubusercontent.com/Mickinthemiddle/CLOAK/refs/heads/main/concealment-data.json')
+    fetch('https://raw.githubusercontent.com/phantomjac//refs/heads/main/concealment-data.json')
       .then(res => res.json())
       .then(data => {
         allTactics = data.tactics;
@@ -311,7 +311,7 @@
   </script>
   <!-- Footer with GitHub Repo link -->
   <footer>
-    <p>More information and the source code on <a href="https://github.com/Mickinthemiddle/CLOAK" target="_blank">GitHub</a></p>
+    <p>More information and the source code on <a href="https://github.com/phantomjac/Blast-Scanner/" target="_blank">GitHub</a></p>
   </footer>
 </body>
 </html>
